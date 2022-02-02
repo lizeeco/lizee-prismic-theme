@@ -1,0 +1,618 @@
+{
+    "header_style": true,
+    "hero_layout": "Left",
+    "show_statements": false,
+    "background_filter": false,
+    "hero_text_color": "#ffffff",
+    "background_video_file": {
+        "link_type": "Media",
+        "name": "header_desktop.mp4",
+        "kind": "document",
+        "url": "https://kering.cdn.prismic.io/kering/496e068c-0bd9-4cfa-af21-caf63f0637be_header_desktop.mp4",
+        "size": "3491045"
+    },
+    "enable_background_video_mobile": true,
+    "background_video_mobile": {
+        "link_type": "Media",
+        "name": "header_mobile.mp4",
+        "kind": "document",
+        "url": "https://kering.cdn.prismic.io/kering/d4fecb52-cd7c-4cdb-8a47-57d34f315bd3_header_mobile.mp4",
+        "size": "789298"
+    },
+    "mainimg": {
+        "lg": {},
+        "md": {}
+    },
+    "logo_transparent": {
+        "dimensions": {
+            "width": 221,
+            "height": 39
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://kering.cdn.prismic.io/kering/1c62b18d-f42c-4ca0-aa6e-d8e34883c99f_logo-white.svg"
+    },
+    "maintitle": [{
+        "type": "heading1",
+        "text": "LUXURY FASHION TO RENT",
+        "spans": []
+    }],
+    "descriptiontext": [{
+        "type": "heading2",
+        "text": "Select your dates",
+        "spans": []
+    }],
+    "hero_ctas": [{
+        "cta_link": {
+            "link_type": "Any"
+        },
+        "cta_label": [],
+        "cta_style": false,
+        "cta_color": false
+    }],
+    "show_featured_packs": false,
+    "show_featured_products": true,
+    "cta_pack_label": [{
+        "type": "heading4",
+        "text": "Voir la sélection",
+        "spans": []
+    }],
+    "is_instagram_active": false,
+    "position_how_it_works": 2,
+    "position_faq": 6,
+    "position_testimonials": null,
+    "position_savings": null,
+    "position_commitment": null,
+    "position_community": null,
+    "position_information": 5,
+    "position_univers": 3,
+    "position_heros": 4,
+    "position_instawall": null,
+    "position_more_information": null,
+    "position_partners": null,
+    "position_menu": 1,
+    "is_howitworks_active": true,
+    "titlehowitworks": [{
+        "type": "heading1",
+        "text": "HOW IT WORKS",
+        "spans": []
+    }],
+    "deschowitworks1": [],
+    "deschowitworks2": [],
+    "howitworks": [{
+        "image": {},
+        "title1": [{
+            "type": "heading1",
+            "text": "CHOOSE",
+            "spans": []
+        }],
+        "desc": [{
+            "type": "paragraph",
+            "text": "Start by selecting your dates for rental (minimum two days) and discover our collection. With each rental piece, you can try up to two different sizes or styles and find what suits you best.\n",
+            "spans": []
+        }]
+    }, {
+        "image": {},
+        "title1": [{
+            "type": "heading1",
+            "text": "RECEIVE",
+            "spans": []
+        }],
+        "desc": [{
+            "type": "paragraph",
+            "text": "Next, you'll receive your delivery to your desired destination, which is included in the rental price. We will ensure that your pieces are with you the day before your rental period begins.",
+            "spans": []
+        }]
+    }, {
+        "image": {},
+        "title1": [{
+            "type": "heading1",
+            "text": "RETURN",
+            "spans": []
+        }],
+        "desc": [{
+            "type": "paragraph",
+            "text": "Finally, arrange to have your pieces collected by our trusted courier within 24 hours of the end of your rental period. We'll take care of all cleaning and repairs.",
+            "spans": []
+        }]
+    }],
+    "button_to_subscription": [],
+    "cta_how_it_works": [{
+        "type": "paragraph",
+        "text": "VIEW COLLECTION",
+        "spans": []
+    }],
+    "cta_hiw_link": {
+        "link_type": "Web",
+        "url": "https://www.sprkl.rent/shop"
+    },
+    "is_faq_active": true,
+    "faq_title": [{
+        "type": "paragraph",
+        "text": "FAQ",
+        "spans": []
+    }],
+    "faq_description": [],
+    "close_others_on_click": false,
+    "q_a": [{
+        "question": [{
+            "type": "paragraph",
+            "text": "When will I receive my order? ",
+            "spans": [{
+                "start": 0,
+                "end": 30,
+                "type": "strong"
+            }]
+        }],
+        "answer": [{
+            "type": "paragraph",
+            "text": "You will receive your order the day before the start of your rental period",
+            "spans": []
+        }]
+    }, {
+        "question": [{
+            "type": "paragraph",
+            "text": "How do I return my rental product?",
+            "spans": [{
+                "start": 0,
+                "end": 34,
+                "type": "strong"
+            }]
+        }],
+        "answer": [{
+            "type": "paragraph",
+            "text": "SPRKL will pick up your order at the time and place that is convenient to you.",
+            "spans": []
+        }]
+    }, {
+        "question": [{
+            "type": "paragraph",
+            "text": "Do I need to clean the garment?",
+            "spans": [{
+                "start": 0,
+                "end": 31,
+                "type": "strong"
+            }]
+        }],
+        "answer": [{
+            "type": "paragraph",
+            "text": "You do not need to clean the garments to send them back. We sort, inspect, repair and clean all products once they have been returned. ",
+            "spans": []
+        }]
+    }],
+    "faq_cta_label": [{
+        "type": "paragraph",
+        "text": "MORE INFORMATION",
+        "spans": []
+    }],
+    "faq_cta": {
+        "link_type": "Web",
+        "url": "https://kering.lizee.io/faq"
+    },
+    "is_testimonials_active": false,
+    "titletestimonials": [],
+    "testimonial": [{
+        "photo": {},
+        "title": [],
+        "subtitle": [],
+        "description": []
+    }],
+    "is_savings_active": false,
+    "section_title_savings": [],
+    "link_label_savings": [],
+    "link_destination": false,
+    "start_savings_text": [],
+    "end_savings_text": [],
+    "buy_savings_text": [],
+    "rent_savings_text": [],
+    "saving_range": [{
+        "budget": [],
+        "discount": [],
+        "buy": [],
+        "rent": []
+    }],
+    "saving_mentions": [],
+    "featured_product": false,
+    "featured_product_title": [],
+    "featured_product_name": [],
+    "featured_product_link_label": [],
+    "featured_product_image": {},
+    "is_commitment_active": false,
+    "icon_commitment": {},
+    "title_commitment": [],
+    "description_commitment": [],
+    "is_community_active": false,
+    "section_title_community": [],
+    "icon_community": {},
+    "title_community": [],
+    "amount_community": [],
+    "is_information_active": false,
+    "information_bg": null,
+    "information_fullscreen": false,
+    "information_section": [{
+        "info_image": {},
+        "image_align": false,
+        "align_content": null,
+        "info_text": [],
+        "button_text": [],
+        "link_button": []
+    }],
+    "is_universe_active": true,
+    "univers_layout": true,
+    "univers_carousel_arrows": true,
+    "carousel_cards_spacing": "Small",
+    "classic_grid_columns": "4",
+    "enable_taxon_product": false,
+    "title_universe": [],
+    "subtitle_universe1": [],
+    "paragraph_universe1": [],
+    "taxon_number_limit": [{
+        "type": "paragraph",
+        "text": "4",
+        "spans": []
+    }],
+    "enable_taxon_pack": false,
+    "subtitle_universe2": [],
+    "paragraph_universe2": [],
+    "pack_taxon_limit_number": [{
+        "type": "paragraph",
+        "text": "4",
+        "spans": []
+    }],
+    "enable_products_carousel": true,
+    "subtitle_universe3": [{
+        "type": "paragraph",
+        "text": "EDITOR'S PICKS",
+        "spans": []
+    }],
+    "paragraph_universe3": [],
+    "carousel_products": [{
+        "image": {
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/d6d5fff1-7f7f-487d-9b52-aa65bbe44281_471056TVK035100-1.jpg?auto=compress,format&rect=0,0,512,512&w=1000&h=1000"
+        },
+        "title": [{
+            "type": "heading2",
+            "text": "BALENCIAGA Dress  ",
+            "spans": []
+        }],
+        "price": [{
+            "type": "paragraph",
+            "text": "£115 / day",
+            "spans": []
+        }],
+        "link": {
+            "link_type": "Web",
+            "url": "https://www.sprkl.rent/products/BALENCIAGA_VIOLET_DRAPE_MINI_DRESS"
+        }
+    }, {
+        "image": {
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/4c2d7e5c-03f5-4a6e-82d9-4bf92da48a54_475189QLJ091000-1.jpg?auto=compress,format&rect=0,0,1000,1000&w=1000&h=1000"
+        },
+        "title": [{
+            "type": "heading2",
+            "text": "ALEXANDER MCQUEEN Jacket",
+            "spans": []
+        }],
+        "price": [{
+            "type": "paragraph",
+            "text": "£155 / day",
+            "spans": []
+        }],
+        "link": {
+            "link_type": "Web",
+            "url": "https://www.sprkl.rent/products/ALEXANDER_McQUEEN_BLACK_DRAPED_JACKET"
+        }
+    }, {
+        "image": {
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/21c443e6-0bf9-4e74-b830-ee2746234cab_521502GVO001000-1.jpg?auto=compress,format&rect=0,0,1000,1000&w=1000&h=1000"
+        },
+        "title": [{
+            "type": "heading2",
+            "text": "SAINT LAURENT Yeti Plume Boots",
+            "spans": []
+        }],
+        "price": [{
+            "type": "paragraph",
+            "text": "£335 / day",
+            "spans": []
+        }],
+        "link": {
+            "link_type": "Web",
+            "url": "https://www.sprkl.rent/products/SAINT_LAURENT_Yeti_Plumes_Boots"
+        }
+    }, {
+        "image": {
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/3fe06d49-7aea-4da8-8e7a-ae29a4ab7d70_446138Y930W4370-1.jpg?auto=compress,format&rect=0,0,1000,1000&w=1000&h=1000"
+        },
+        "title": [{
+            "type": "heading2",
+            "text": "SAINT LAURENT Jacket",
+            "spans": []
+        }],
+        "price": [{
+            "type": "paragraph",
+            "text": "£115 / day",
+            "spans": []
+        }],
+        "link": {
+            "link_type": "Web",
+            "url": "https://www.sprkl.rent/products/SAINT_LAURENT_BLUE_PATCH_JACKET"
+        }
+    }, {
+        "image": {
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/30bd5a24-6805-4a48-ae39-5724360b1d3c_365683TLD215080-1.jpg?auto=compress,format&rect=0,0,1000,1000&w=1000&h=1000"
+        },
+        "title": [{
+            "type": "heading2",
+            "text": "BALENCIAGA Gown",
+            "spans": []
+        }],
+        "price": [{
+            "type": "paragraph",
+            "text": "£165 / day",
+            "spans": []
+        }],
+        "link": {
+            "link_type": "Web",
+            "url": "https://www.sprkl.rent/products/BALENCIAGA_AUBERGINE_BOW_GOWN"
+        }
+    }, {
+        "image": {
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/f34ac55f-4f69-4e1b-8778-237b057af7f5_527272C8K026212_1.jpg?auto=compress,format&rect=0,0,1000,1000&w=1000&h=1000"
+        },
+        "title": [{
+            "type": "heading2",
+            "text": "BALENCIAGA Triangle Duffle Chain Bag",
+            "spans": []
+        }],
+        "price": [{
+            "type": "paragraph",
+            "text": "£80 / day",
+            "spans": []
+        }],
+        "link": {
+            "link_type": "Web",
+            "url": "https://www.sprkl.rent/products/BALENCIAGA_RED_TRIANGLE_TOP_HANDLE_XS_CHAIN"
+        }
+    }, {
+        "image": {
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/8d1a9f4a-4073-4768-a969-cb58f5b36136_328242TGD144011-1.jpg?auto=compress,format&rect=0,0,1000,1000&w=1000&h=1000"
+        },
+        "title": [{
+            "type": "heading2",
+            "text": "BALENCIAGA Trousers",
+            "spans": []
+        }],
+        "price": [{
+            "type": "paragraph",
+            "text": "£65 / day",
+            "spans": []
+        }],
+        "link": {
+            "link_type": "Web",
+            "url": "https://www.sprkl.rent/products/BALENCIAGA_BLUE_CROPPED_SLIM_PANTS"
+        }
+    }, {
+        "image": {
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/e0ee3877-55e7-4006-a651-11d11df7bd10_594775Q5ACO1000_A.jpg?auto=compress,format&rect=0,0,1000,1000&w=1000&h=1000"
+        },
+        "title": [{
+            "type": "heading2",
+            "text": "ALEXANDER MCQUEEN Dress",
+            "spans": []
+        }],
+        "price": [{
+            "type": "paragraph",
+            "text": "£200 / day",
+            "spans": []
+        }],
+        "link": {
+            "link_type": "Web",
+            "url": "https://www.sprkl.rent/products/ALEXANDER_McQUEEN_BLACK_LEATHER_CORSET_DRESS"
+        }
+    }],
+    "univers_cta_link": {
+        "link_type": "Web",
+        "url": "https://www.sprkl.rent/shop",
+        "target": "_blank"
+    },
+    "univers_cta_label": [{
+        "type": "paragraph",
+        "text": "VIEW COLLECTION",
+        "spans": []
+    }],
+    "is_herosections_active": false,
+    "hero_sections": [{
+        "hero_background": {
+            "dimensions": {
+                "width": 1920,
+                "height": 855
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/kering/01b7cdb8-18de-44bb-b469-fcc8f6f0cc83_Gucci-GTR-SS21-Visual_Horizontal-scaled.jpeg?auto=compress,format&rect=0,335,2560,1140&w=1920&h=855",
+            "medium": {
+                "dimensions": {
+                    "width": 1440,
+                    "height": 855
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/kering/01b7cdb8-18de-44bb-b469-fcc8f6f0cc83_Gucci-GTR-SS21-Visual_Horizontal-scaled.jpeg?auto=compress,format&rect=0,146,2560,1520&w=1440&h=855"
+            },
+            "small": {
+                "dimensions": {
+                    "width": 1024,
+                    "height": 855
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/kering/01b7cdb8-18de-44bb-b469-fcc8f6f0cc83_Gucci-GTR-SS21-Visual_Horizontal-scaled.jpeg?auto=compress,format&rect=197,0,2168,1810&w=1024&h=855"
+            }
+        },
+        "width": "100%",
+        "align_content": "center",
+        "hero_title": [],
+        "hero_content": [{
+            "type": "heading2",
+            "text": "#KNXTLOCATION",
+            "spans": [{
+                "start": 0,
+                "end": 13,
+                "type": "strong"
+            }]
+        }, {
+            "type": "paragraph",
+            "text": "Next veut réduire chaque saison, concrètement, son impact sur l’environnement. ​Notre service de location permet désormais à toutes celles qui le souhaitent d’emprunter la pièce de leurs rêves. Une nouvelle manière de profiter des plus belles pièces de luxe dans une démarche éco-responsable.",
+            "spans": []
+        }],
+        "hero_cta_link": {
+            "link_type": "Web",
+            "url": "https://www.gucci.com/fr/fr/pr/women/ready-to-wear-for-women/lingerie-for-women/gg-tulle-lingerie-p-644758XUAB71000",
+            "target": "_blank"
+        },
+        "hero_cta_label": [{
+            "type": "heading2",
+            "text": "DÉCOUVRIR L'ENSEMBLE DE NOS ACTIONS",
+            "spans": []
+        }]
+    }],
+    "is_more_information_active": false,
+    "more_information_bg": null,
+    "more_information_fullscreen": false,
+    "more_information_section": [{
+        "info_image": {},
+        "image_align": false,
+        "align_content": null,
+        "info_text": [],
+        "button_text": [],
+        "link_button": []
+    }],
+    "is_partners_active": false,
+    "partners_list": [{
+        "image": {},
+        "link": {
+            "link_type": "Any"
+        }
+    }],
+    "products": [{
+        "image": {},
+        "desc": [],
+        "link": {
+            "link_type": "Any"
+        }
+    }],
+    "is_menu_active": false,
+    "menu_list": [{
+        "label": "DRESSES",
+        "link": {
+            "link_type": "Web",
+            "url": "https://kering.lizee.io/shop?cat=dresses"
+        }
+    }, {
+        "label": "COATS & VESTS",
+        "link": {
+            "link_type": "Web",
+            "url": "https://kering.lizee.io/shop?cat=coats-vests"
+        }
+    }, {
+        "label": "T-SHIRTS & TOPS",
+        "link": {
+            "link_type": "Web",
+            "url": "https://kering.lizee.io/shop?cat=t-shirts-tops"
+        }
+    }, {
+        "label": "SKIRTS",
+        "link": {
+            "link_type": "Web",
+            "url": "https://kering.lizee.io/shop?cat=skirts"
+        }
+    }, {
+        "label": "PANTS & SHORTS",
+        "link": {
+            "link_type": "Web",
+            "url": "https://kering.lizee.io/shop?cat=pants-shorts"
+        }
+    }, {
+        "label": "BAGS",
+        "link": {
+            "link_type": "Web",
+            "url": "https://kering.lizee.io/en/shop?cat=bags"
+        }
+    }, {
+        "label": "SHOES",
+        "link": {
+            "link_type": "Web",
+            "url": "https://kering.lizee.io/shop?cat=shoes"
+        }
+    }, {
+        "label": "ACCESSORIES",
+        "link": {
+            "link_type": "Web",
+            "url": "https://kering.lizee.io/shop?cat=accessories"
+        }
+    }],
+    "menu_cta_label": null,
+    "menu_cta_link": {
+        "link_type": "Any"
+    },
+    "meta_title_homepage": [{
+        "type": "paragraph",
+        "text": "SPRKL | Luxury Fashion to Rent ",
+        "spans": []
+    }],
+    "meta_description_homepage": [{
+        "type": "paragraph",
+        "text": "SPRKL | The Only Destination for Luxury Fashion to Rent ",
+        "spans": []
+    }],
+    "meta_keywords_homepage": []
+}

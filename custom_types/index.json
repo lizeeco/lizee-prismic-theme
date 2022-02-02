@@ -1,0 +1,8 @@
+ [
+  {
+    "id": "homepage",
+    "label": "HomePage",
+    "repeatable": false,
+    "value": "homepage.json"
+  }
+]
