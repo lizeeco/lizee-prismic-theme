@@ -9,6 +9,16 @@
   "repeatable": true,
   "value": "products_to_buy.json"
 }, {
+  "id": "instagramwall",
+  "name": "Instagram",
+  "repeatable": false,
+  "value": "instagramwall.json"
+}, {
+  "id": "customer_survey",
+  "name": "Customer survey",
+  "repeatable": false,
+  "value": "customer_survey.json"
+}, {
   "id": "banner",
   "name": "Banner",
   "repeatable": false,
@@ -33,6 +43,11 @@
   "name": "Funnel",
   "repeatable": false,
   "value": "funnel.json"
+}, {
+  "id": "classic_subscription_spec",
+  "name": "Classic subscription spec",
+  "repeatable": false,
+  "value": "classic_subscription_spec.json"
 }, {
   "id": "account",
   "name": "Account",
