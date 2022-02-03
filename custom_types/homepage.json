@@ -1,256 +1,31 @@
 {
-    "Main" : {
-      "header_style" : {
-        "type" : "Boolean",
-        "config" : {
-          "placeholder_false" : "Classic",
-          "placeholder_true" : "Transparent",
-          "default_value" : true,
-          "label" : "Header Style"
-        }
-      },
-      "hero_layout" : {
-        "type" : "Select",
-        "config" : {
-          "options" : [ "Left", "Right", "Center" ],
-          "label" : "Hero Layout (Desktop only)"
-        }
-      },
-      "show_statements" : {
-        "type" : "Boolean",
-        "config" : {
-          "default_value" : true,
-          "label" : "Show Statements"
-        }
-      },
-      "background_filter" : {
-        "type" : "Boolean",
-        "config" : {
-          "default_value" : false,
-          "label" : "Background filter"
-        }
-      },
-      "hero_text_color" : {
-        "type" : "Color",
-        "config" : {
-          "label" : "Hero text color"
-        }
-      },
-      "background_video_file" : {
-        "type" : "Link",
-        "config" : {
-          "select" : "media",
-          "label" : "Background Video",
-          "placeholder" : "File type: mp4. Limit the size of the file (1Mb)"
-        }
-      },
-      "enable_background_video_mobile" : {
-        "type" : "Boolean",
-        "config" : {
-          "default_value" : false,
-          "label" : "Enable Background video mobile"
-        }
-      },
-      "background_video_mobile" : {
-        "type" : "Link",
-        "config" : {
-          "select" : "media",
-          "label" : "Background Video Mobile",
-          "placeholder" : "File type: mp4. Limit the size of the file (1Mb)"
-        }
-      },
-      "mainimg" : {
-        "type" : "Image",
-        "config" : {
-          "constraint" : {
-            "width" : 1920,
-            "height" : 855
-          },
-          "thumbnails" : [ {
-            "name" : "lg",
-            "width" : 1440,
-            "height" : 855
-          }, {
-            "name" : "md",
-            "width" : 1024,
-            "height" : 855
-          } ],
-          "label" : "Hero image"
-        }
-      },
-      "logo_transparent" : {
-        "type" : "Image",
-        "config" : {
-          "constraint" : { },
-          "thumbnails" : [ ],
-          "label" : "Logo Transparent"
-        }
-      },
-      "maintitle" : {
-        "type" : "StructuredText",
-        "config" : {
-          "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
-          "label" : "MainTitle"
-        }
-      },
-      "descriptiontext" : {
-        "type" : "StructuredText",
-        "config" : {
-          "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item",
-          "label" : "DescriptionText"
-        }
-      },
-      "hero_ctas" : {
-        "type" : "Group",
-        "config" : {
-          "fields" : {
-            "cta_link" : {
-              "type" : "Link",
-              "config" : {
-                "label" : "CTA Link",
-                "select" : null
-              }
-            },
-            "cta_label" : {
-              "type" : "StructuredText",
-              "config" : {
-                "single" : "heading6",
-                "label" : "CTA Label"
-              }
-            },
-            "cta_style" : {
-              "type" : "Boolean",
-              "config" : {
-                "placeholder_false" : "Contained",
-                "placeholder_true" : "Outlined",
-                "default_value" : false,
-                "label" : "CTA Style"
-              }
-            },
-            "cta_color" : {
-              "type" : "Boolean",
-              "config" : {
-                "placeholder_false" : "Primary",
-                "placeholder_true" : "Secondary",
-                "default_value" : false,
-                "label" : "CTA Color"
-              }
-            }
-          },
-          "label" : "Hero ctas"
-        }
-      },
-      "show_featured_packs" : {
-        "type" : "Boolean",
-        "config" : {
-          "placeholder_false" : "Hide",
-          "placeholder_true" : "Show",
-          "default_value" : false,
-          "label" : "Show Featured Packs"
-        }
-      },
-      "show_featured_products" : {
-        "type" : "Boolean",
-        "config" : {
-          "placeholder_false" : "Hide",
-          "placeholder_true" : "Show",
-          "default_value" : false,
-          "label" : "Show Featured Products"
-        }
-      },
-      "cta_pack_label" : {
-        "type" : "StructuredText",
-        "config" : {
-          "single" : "heading4",
-          "label" : "CTA Pack label"
-        }
-      },
-      "is_instagram_active" : {
-        "type" : "Boolean",
-        "config" : {
-          "placeholder_false" : "Hide",
-          "placeholder_true" : "Show",
-          "default_value" : false,
-          "label" : "Show Instagram Feed"
-        }
-      },
-      "position_how_it_works" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position How it Works"
-        }
-      },
-      "position_faq" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Faq"
-        }
-      },
-      "position_testimonials" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Testimonials"
-        }
-      },
-      "position_savings" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Savings"
-        }
-      },
-      "position_commitment" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Commitment"
-        }
-      },
-      "position_community" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Community"
-        }
-      },
-      "position_information" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Information"
-        }
-      },
-      "position_univers" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Univers"
-        }
-      },
-      "position_heros" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Heros"
-        }
-      },
-      "position_instawall" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position InstaWall"
-        }
-      },
-      "position_more_information" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position More Information"
-        }
-      },
-      "position_partners" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Partners"
-        }
-      },
-      "position_menu" : {
-        "type" : "Number",
-        "config" : {
-          "label" : "Position Menu"
-        }
+  "Main": {
+    "headline": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1",
+        "label": "Headline",
+        "placeholder": "Main title..."
+      }
+    },
+    "description": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "heading2",
+        "label": "Description",
+        "placeholder": "Sub-title..."
+      }
+    },
+    "image": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 140,
+          "height": 140
+        },
+        "thumbnails": [],
+        "label": "Image"
       }
     }
   }
+}
