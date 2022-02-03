@@ -1,0 +1,194 @@
+{
+    "Main": {
+        "enable_postcode_search": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "enable postcode search"
+            }
+        },
+        "modale_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "modale title"
+            }
+        },
+        "modale_shop_name": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "modale shop name"
+            }
+        },
+        "modale_informations": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "modale_informations"
+            }
+        },
+        "modale_choose_shop": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "modale choose shop"
+            }
+        },
+        "modale_details": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "modale details"
+            }
+        },
+        "modale_choose_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "modale choose button"
+            }
+        },
+        "modale_address": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "modale address"
+            }
+        },
+        "modale_phone": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "modale phone"
+            }
+        },
+        "no_store_available": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "No store available"
+            }
+        },
+        "search": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "search"
+            }
+        },
+        "search_input_label": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "search input label"
+            }
+        },
+        "search_input_placeholder": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "search input placeholder"
+            }
+        }
+    },
+    "ChangeStore": {
+        "change_store_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "change_store_title"
+            }
+        },
+        "change_store_paragraph": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "change store paragraph"
+            }
+        },
+        "cancel_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "cancel button"
+            }
+        },
+        "change_store_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "change store button"
+            }
+        },
+        "header_change_store": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "header change store"
+            }
+        }
+    },
+    "product page": {
+        "product_not_available": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "product not available"
+            }
+        },
+        "paragraph": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "paragraph"
+            }
+        },
+        "change_store_cta": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "change store cta"
+            }
+        }
+    },
+    "Appointments": {
+        "appointments_page_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "Appointments Page Title"
+            }
+        },
+        "appointment_page_pickup_link_label": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph",
+                "label": "Appointment Page Pickup Link Label"
+            }
+        },
+        "appointment_page_return_link_label": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph",
+                "label": "Appointment Page Return Link Label"
+            }
+        },
+        "account_page_return_link_label": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph",
+                "label": "Account Page Return Link Label"
+            }
+        }
+    },
+    "pack page": {
+        "pack_not_available": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Pack not available"
+            }
+        }
+    }
+}

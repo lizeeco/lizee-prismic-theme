@@ -1,0 +1,222 @@
+{
+    "Main": {
+        "header_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading6",
+                "label": "Header Title",
+                "placeholder": "Title displayed in Header"
+            }
+        },
+        "hero_top_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading4",
+                "label": "Hero Top Title"
+            }
+        },
+        "sold_out": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "sold out"
+            }
+        },
+        "herotitle": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "HeroTitle",
+                "placeholder": "title for the HeroSection"
+            }
+        },
+        "titlepacks": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "TitlePacks",
+                "placeholder": "title for pack section"
+            }
+        },
+        "has_shipping_card": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "has_shipping_card"
+            }
+        },
+        "packsparagraph": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "packsParagraph",
+                "placeholder": "paragraph text on pack section"
+            }
+        },
+        "buttontext": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "buttonText",
+                "placeholder": "text for button"
+            }
+        },
+        "image_shipping_section": {
+            "type": "Image",
+            "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "Image shipping section"
+            }
+        },
+        "shipping_description": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "shippingDescription",
+                "placeholder": "shipping text"
+            }
+        },
+        "pack_to_shop_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "pack to shop button"
+            }
+        },
+        "fake_pack_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "fake pack title"
+            }
+        },
+        "fake_pack_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "fake pack button"
+            }
+        },
+        "select": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "select"
+            }
+        },
+        "link_to_single": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Link to single pack"
+            }
+        },
+        "see_more_articles": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "See more articles"
+            }
+        }
+    },
+    "Size Modale": {
+        "title_size_modale_pack": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "Title size modale pack"
+            }
+        },
+        "pack_size_modal_cta_return": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "pack size modal cta return"
+            }
+        },
+        "pack_size_modal_cta_add": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "pack size modal cta add"
+            }
+        }
+    },
+    "Packs Pushs": {
+        "pushs": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "image": {
+                        "type": "Image",
+                        "config": {
+                            "constraint": {},
+                            "thumbnails": [],
+                            "label": "Image"
+                        }
+                    },
+                    "taxon_pack_code": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "heading6",
+                            "label": "Taxon pack code"
+                        }
+                    },
+                    "list_position": {
+                        "type": "Number",
+                        "config": {
+                            "label": "List position"
+                        }
+                    },
+                    "title": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "heading2",
+                            "label": "Title"
+                        }
+                    },
+                    "cta_link": {
+                        "type": "Link",
+                        "config": {
+                            "allowTargetBlank": true,
+                            "label": "CTA Link",
+                            "select": null
+                        }
+                    },
+                    "cta_label": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "heading6",
+                            "label": "CTA Label"
+                        }
+                    }
+                },
+                "label": "Pushs"
+            }
+        }
+    },
+    "SEO": {
+        "meta_title_packs": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Meta title packs"
+            }
+        },
+        "meta_description_packs": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta description packs"
+            }
+        },
+        "meta_keywords_packs": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta keywords packs"
+            }
+        }
+    }
+}

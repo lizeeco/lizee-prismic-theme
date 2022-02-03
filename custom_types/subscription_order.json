@@ -1,0 +1,217 @@
+{
+    "Main": {
+        "my_subscription": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "My subscription"
+            }
+        },
+        "taken_every": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Taken every ..."
+            }
+        },
+        "of_the_month": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "... Of the month"
+            }
+        },
+        "select_all_and_stop1": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "select_all_and_stop"
+            }
+        },
+        "per_month": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Per month"
+            }
+        },
+        "handle_return_cta": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Handle return CTA"
+            }
+        },
+        "cancel_cta": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Cancel CTA"
+            }
+        },
+        "my_new_subscription": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "My new subscription"
+            }
+        },
+        "select_all_and_stop": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Select all and stop"
+            }
+        },
+        "generate_the_return_slip": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Generate the return slip"
+            }
+        },
+        "continue": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Continue"
+            }
+        },
+        "bottom_sentence_in_funnel": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Bottom sentence in funnel"
+            }
+        },
+        "forfaits": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "forfaits"
+            }
+        },
+        "articles_max": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "articles max"
+            }
+        },
+        "returned_product_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "returned_product_title"
+            }
+        },
+        "returned_product_desc": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "returned_product_desc"
+            }
+        },
+        "canceled_order_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "canceled_order_title"
+            }
+        },
+        "canceled_order_desc": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "canceled_order_desc"
+            }
+        },
+        "refunded_order_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "refunded_order_title"
+            }
+        },
+        "refunded_order_desc": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "refunded_order_desc"
+            }
+        },
+        "sub_finished_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "sub_finished_title"
+            }
+        },
+        "sub_finished_desc": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "sub_finished_desc"
+            }
+        },
+        "link_download_return": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Link download return"
+            }
+        },
+        "invoice_this_month": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "invoice_this_month"
+            }
+        },
+        "invoice_explanation": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "invoice_explanation"
+            }
+        },
+        "subscription_start_date": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "subscription_start_date"
+            }
+        },
+        "subscription_date_explanation": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "subscription_date_explanation"
+            }
+        }
+    },
+    "Funnel Subscription order": {
+        "current_subscription": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": ", Current subscription"
+            }
+        },
+        "subtitle": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "subtitle"
+            }
+        },
+        "skip_step": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Skip Step"
+            }
+        }
+    }
+}

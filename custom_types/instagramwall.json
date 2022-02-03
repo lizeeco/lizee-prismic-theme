@@ -1,0 +1,62 @@
+{
+    "Main": {
+        "instagramlogo": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": null,
+                    "height": null
+                },
+                "thumbnails": [],
+                "label": "instagramLogo"
+            }
+        },
+        "title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "title"
+            }
+        },
+        "desc": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "desc"
+            }
+        },
+        "buttontext": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "buttonText"
+            }
+        },
+        "link": {
+            "type": "Link",
+            "config": {
+                "label": "link",
+                "select": null
+            }
+        },
+        "instagramimages": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "image": {
+                        "type": "Image",
+                        "config": {
+                            "constraint": {
+                                "width": 355,
+                                "height": 355
+                            },
+                            "thumbnails": [],
+                            "label": "image"
+                        }
+                    }
+                },
+                "label": "instagramImages"
+            }
+        }
+    }
+}

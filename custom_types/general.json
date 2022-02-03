@@ -1,0 +1,603 @@
+{
+    "Main": {
+        "baseline": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "Baseline",
+                "placeholder": "Rent. Save. Enjoy."
+            }
+        },
+        "logo": {
+            "type": "Image",
+            "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "Logo"
+            }
+        },
+        "favicon": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 180,
+                    "height": 180
+                },
+                "thumbnails": [{
+                    "name": "small",
+                    "width": 48,
+                    "height": 48
+                }],
+                "label": "Favicon"
+            }
+        },
+        "hero_banner": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 1440,
+                    "height": null
+                },
+                "thumbnails": [{
+                    "name": "xl",
+                    "width": 1920,
+                    "height": null
+                }, {
+                    "name": "md",
+                    "width": 1024,
+                    "height": null
+                }, {
+                    "name": "sm",
+                    "width": 375,
+                    "height": null
+                }],
+                "label": "Hero Banner"
+            }
+        },
+        "hero_banner_overlay": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "Hero Banner Overlay"
+            }
+        },
+        "hero_background_color": {
+            "type": "Color",
+            "config": {
+                "label": "Hero Background Color"
+            }
+        },
+        "hero_text_color": {
+            "type": "Color",
+            "config": {
+                "label": "Hero Text Color"
+            }
+        }
+    },
+    "Header": {
+        "has_extra_link": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "has extra link"
+            }
+        },
+        "link": {
+            "type": "Link",
+            "config": {
+                "label": "link",
+                "allowTargetBlank": true,
+                "select": null
+            }
+        },
+        "link_name": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "link_name"
+            }
+        },
+        "faq": {
+            "type": "StructuredText",
+            "config": {
+                "single": "strong,em",
+                "label": "faq"
+            }
+        },
+        "my_account": {
+            "type": "StructuredText",
+            "config": {
+                "single": "strong,em",
+                "label": "my_account"
+            }
+        },
+        "account_link_to_register": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "account_link_to_register"
+            }
+        }
+    },
+    "Footer": {
+        "footer_background": {
+            "type": "Color",
+            "config": {
+                "label": "footer background"
+            }
+        },
+        "font_color": {
+            "type": "Color",
+            "config": {
+                "label": "font color"
+            }
+        },
+        "footer_tagline": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading2",
+                "label": "Footer tagline",
+                "placeholder": "From selling to renting"
+            }
+        },
+        "footer_logo": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 500,
+                    "height": 200
+                },
+                "thumbnails": [],
+                "label": "footer_logo"
+            }
+        },
+        "contact_mail": {
+            "type": "Link",
+            "config": {
+                "label": "Contact mail",
+                "placeholder": "mailto:contact@lizee.co",
+                "select": null
+            }
+        },
+        "faq_link": {
+            "type": "Link",
+            "config": {
+                "label": "faq link",
+                "select": null
+            }
+        },
+        "social_networks": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "icon": {
+                        "type": "Image",
+                        "config": {
+                            "constraint": {
+                                "width": 24,
+                                "height": 24
+                            },
+                            "thumbnails": [],
+                            "label": "Icon"
+                        }
+                    },
+                    "label": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "heading4",
+                            "label": "Label",
+                            "placeholder": "Facebook"
+                        }
+                    },
+                    "link": {
+                        "type": "Link",
+                        "config": {
+                            "allowTargetBlank": true,
+                            "label": "Link",
+                            "placeholder": "https://www.facebook.com/",
+                            "select": null
+                        }
+                    }
+                },
+                "label": "Social Networks"
+            }
+        },
+        "show_footer_top": {
+            "type": "Boolean",
+            "config": {
+                "placeholder_false": "Hide",
+                "placeholder_true": "Show",
+                "default_value": true,
+                "label": "Show Footer Top"
+            }
+        },
+        "footer_top_baseline": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                "allowTargetBlank": true,
+                "label": "Footer Top Baseline",
+                "placeholder": "Damage insurance is included"
+            }
+        },
+        "footer_top_link_label": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading3",
+                "label": "Footer Top Link Label",
+                "placeholder": "See all the products"
+            }
+        },
+        "footer_top_link": {
+            "type": "Link",
+            "config": {
+                "allowTargetBlank": true,
+                "label": "Footer Top Link",
+                "placeholder": "https://lizee.co",
+                "select": null
+            }
+        },
+        "contact_us_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "contact us button",
+                "placeholder": "Contact us"
+            }
+        },
+        "footer_menu": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "link": {
+                        "type": "Link",
+                        "config": {
+                            "label": "Link",
+                            "allowTargetBlank": true,
+                            "select": null
+                        }
+                    },
+                    "label": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "heading6",
+                            "label": "Label"
+                        }
+                    }
+                },
+                "label": "Footer menu"
+            }
+        }
+    },
+    "DatePicker": {
+        "small_text_under_calendar": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "small text under calendar",
+                "placeholder": "The more you rent, the less you pay !"
+            }
+        },
+        "start_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "start_button",
+                "placeholder": "Start"
+            }
+        },
+        "confirm_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "confirm button",
+                "placeholder": "Confirm"
+            }
+        },
+        "you_save": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "you save"
+            }
+        }
+    },
+    "Design": {
+        "custom_css": {
+            "type": "Link",
+            "config": {
+                "select": "media",
+                "label": "Custom CSS",
+                "placeholder": ".css file for custom design"
+            }
+        }
+    },
+    "Config": {
+        "has_quantity_selector": {
+            "type": "Boolean",
+            "config": {
+                "default_value": true,
+                "label": "Quantity selector"
+            }
+        },
+        "only_add_with_pack": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "Only add with pack"
+            }
+        },
+        "pack_page": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "Pack page available"
+            }
+        },
+        "add_a_pack_from_pack_page": {
+            "type": "Boolean",
+            "config": {
+                "default_value": true,
+                "label": "Add a pack from pack page"
+            }
+        },
+        "add_pack_if_complete": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "Add Pack if complete"
+            }
+        },
+        "show_size_name": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "show size name"
+            }
+        },
+        "pack_layout": {
+            "type": "Select",
+            "config": {
+                "options": ["Sport", "Sport Full", "Fashion"],
+                "label": "Pack Layout",
+                "placeholder": "Choose your pack appearance"
+            }
+        },
+        "page_shop_layout": {
+            "type": "Boolean",
+            "config": {
+                "placeholder_false": "Full width",
+                "placeholder_true": "Column",
+                "default_value": false,
+                "label": "Page shop layout"
+            }
+        },
+        "page_shop_filters_display": {
+            "type": "Boolean",
+            "config": {
+                "placeholder_false": "Buttons",
+                "placeholder_true": "Dropdown",
+                "default_value": false,
+                "label": "Page shop filters display"
+            }
+        },
+        "show_reduced_price": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "show reduced price"
+            }
+        },
+        "page_shop_desktop_columns": {
+            "type": "Select",
+            "config": {
+                "options": ["5", "3", "4", "6"],
+                "label": "Page shop desktop columns"
+            }
+        },
+        "thumbnail_ratio": {
+            "type": "Select",
+            "config": {
+                "options": ["Square", "Portrait", "Landscape 4:3", "Landscape 16:9"],
+                "label": "Thumbnail ratio"
+            }
+        },
+        "small_image_size": {
+            "type": "Number",
+            "config": {
+                "label": "Small image size",
+                "placeholder": "For thumbnails"
+            }
+        },
+        "medium_image_size": {
+            "type": "Number",
+            "config": {
+                "label": "Medium image size",
+                "placeholder": "For products cards"
+            }
+        },
+        "large_image_size": {
+            "type": "Number",
+            "config": {
+                "label": "Large image size",
+                "placeholder": "For single products"
+            }
+        }
+    },
+    "MetaTags": {
+        "meta_description": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta Description"
+            }
+        },
+        "meta_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta title"
+            }
+        },
+        "meta_url": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta url"
+            }
+        },
+        "meta_image": {
+            "type": "Image",
+            "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "meta image"
+            }
+        }
+    },
+    "Stock texts": {
+        "back_soon": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "back_soon"
+            }
+        },
+        "few_products_left": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "few_products_left"
+            }
+        },
+        "in_stock": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "in_stock"
+            }
+        }
+    },
+    "Search App Texts": {
+        "label": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph",
+                "label": "label"
+            }
+        },
+        "placeholder": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph",
+                "label": "placeholder"
+            }
+        },
+        "no_results": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "no_results"
+            }
+        },
+        "excluded": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "excluded"
+            }
+        },
+        "invalid_country": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "invalid_country"
+            }
+        },
+        "incomplete": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "incomplete"
+            }
+        }
+    },
+    "Common Product/Pack Texts": {
+        "previous_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "previous_button"
+            }
+        },
+        "sizes": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Sizes"
+            }
+        },
+        "bottom_menu_links": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "name": {
+                        "type": "StructuredText",
+                        "config": {
+                            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                            "label": "name"
+                        }
+                    },
+                    "link": {
+                        "type": "Link",
+                        "config": {
+                            "allowTargetBlank": true,
+                            "label": "link",
+                            "select": null
+                        }
+                    }
+                },
+                "label": "bottom menu links"
+            }
+        },
+        "common_informations_layout": {
+            "type": "Boolean",
+            "config": {
+                "placeholder_false": "Tabs",
+                "placeholder_true": "Accordions",
+                "default_value": false,
+                "label": "Informations Layout"
+            }
+        },
+        "common_informations": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "label": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "strong,em",
+                            "label": "Label"
+                        }
+                    },
+                    "content": {
+                        "type": "StructuredText",
+                        "config": {
+                            "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                            "allowTargetBlank": true,
+                            "label": "Content"
+                        }
+                    }
+                },
+                "label": "Informations"
+            }
+        }
+    }
+}

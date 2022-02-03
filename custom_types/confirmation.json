@@ -1,0 +1,210 @@
+{
+    "Main": {
+        "confirmation": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "confirmationimage": {
+                        "type": "Image",
+                        "config": {
+                            "constraint": {},
+                            "thumbnails": [],
+                            "label": "confirmationImage"
+                        }
+                    },
+                    "title": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                            "label": "title"
+                        }
+                    },
+                    "desc": {
+                        "type": "StructuredText",
+                        "config": {
+                            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                            "label": "desc"
+                        }
+                    }
+                },
+                "label": "confirmation"
+            }
+        }
+    },
+    "Assistance": {
+        "text": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "text"
+            }
+        },
+        "maillogo": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": null,
+                    "height": 60
+                },
+                "thumbnails": [],
+                "label": "mailLogo"
+            }
+        },
+        "email": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "email"
+            }
+        }
+    },
+    "Complements": {
+        "title_complements": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "title complements"
+            }
+        },
+        "desc_complements": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "desc complements"
+            }
+        },
+        "codeimage": {
+            "type": "Image",
+            "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "codeImage"
+            }
+        },
+        "codetext": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "codeText"
+            }
+        },
+        "codename": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "codeName"
+            }
+        }
+    },
+    "OrderRecap": {
+        "is_active": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "Is Active"
+            }
+        },
+        "title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "title"
+            }
+        },
+        "articles_return": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "articles to return before"
+            }
+        },
+        "generate_vouchers": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Generate vouchers"
+            }
+        },
+        "articles_to_send": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "articles i will get"
+            }
+        },
+        "account_cta": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "account CTA"
+            }
+        }
+    },
+    "Succes Text": {
+        "succes_text": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "allowTargetBlank": true,
+                "label": "Succes Text",
+                "placeholder": "Displayed if no products to sell"
+            }
+        },
+        "links": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "image": {
+                        "type": "Image",
+                        "config": {
+                            "constraint": {
+                                "width": 1200
+                            },
+                            "thumbnails": [],
+                            "label": "Image"
+                        }
+                    },
+                    "link_text": {
+                        "type": "StructuredText",
+                        "config": {
+                            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,list-item,o-list-item,rtl",
+                            "label": "Link text"
+                        }
+                    },
+                    "link_url": {
+                        "type": "Link",
+                        "config": {
+                            "allowTargetBlank": true,
+                            "label": "Link url",
+                            "select": null
+                        }
+                    }
+                },
+                "label": "Links"
+            }
+        }
+    },
+    "SEO": {
+        "meta_title_confirmation": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Meta title confirmation"
+            }
+        },
+        "meta_description_confirmation": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta description confirmation"
+            }
+        },
+        "meta_keywords_confirmation": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta keywords confirmation"
+            }
+        }
+    }
+}

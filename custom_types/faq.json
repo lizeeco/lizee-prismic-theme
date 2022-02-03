@@ -1,0 +1,94 @@
+{
+    "Main": {
+        "title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "title"
+            }
+        },
+        "subtitle": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "subtitle"
+            }
+        },
+        "close_others_on_click": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "close others on click"
+            }
+        },
+        "body": {
+            "type": "Slices",
+            "fieldset": "Slice zone",
+            "config": {
+                "labels": {
+                    "categorie": [{
+                        "name": "cat",
+                        "display": "cat"
+                    }]
+                },
+                "choices": {
+                    "categorie": {
+                        "type": "Slice",
+                        "fieldset": "categorie",
+                        "description": "bonjour",
+                        "icon": "face",
+                        "display": "list",
+                        "non-repeat": {
+                            "categorie": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                                    "label": "categorie"
+                                }
+                            }
+                        },
+                        "repeat": {
+                            "question": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "single": "strong,em,hyperlink",
+                                    "label": "question"
+                                }
+                            },
+                            "response": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                                    "label": "response"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SEO": {
+        "meta_title_faq": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Meta title faq"
+            }
+        },
+        "meta_description_faq": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta description faq"
+            }
+        },
+        "meta_keywords_faq": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta keywords faq"
+            }
+        }
+    }
+}

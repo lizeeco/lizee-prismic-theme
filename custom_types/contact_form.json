@@ -1,0 +1,102 @@
+{
+    "Contact form": {
+        "title_contact": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "title contact page"
+            }
+        },
+        "desc_contact": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "allowTargetBlank": true,
+                "label": "Description"
+            }
+        },
+        "contact_form_cta": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Contact form cta"
+            }
+        },
+        "list_1_label": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "List 1 label"
+            }
+        },
+        "options_list_1": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "option": {
+                        "type": "StructuredText",
+                        "config": {
+                            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                            "label": "option"
+                        }
+                    }
+                },
+                "label": "options list 1"
+            }
+        },
+        "list_2_label": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "list 2 label"
+            }
+        },
+        "options_list_2": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "option": {
+                        "type": "StructuredText",
+                        "config": {
+                            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                            "label": "option"
+                        }
+                    }
+                },
+                "label": "options list 2"
+            }
+        }
+    },
+    "Data text": {
+        "data_text": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "data text"
+            }
+        }
+    },
+    "SEO": {
+        "meta_title_contact": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Meta title contact"
+            }
+        },
+        "meta_description_contact": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta description contact"
+            }
+        },
+        "meta_keywords_contact": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta keywords contact"
+            }
+        }
+    }
+}

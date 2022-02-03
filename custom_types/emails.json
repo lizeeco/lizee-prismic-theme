@@ -1,0 +1,478 @@
+{
+    "Main": {
+        "logo": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 160
+                },
+                "thumbnails": [],
+                "label": "Logo (.png or .jpg only)"
+            }
+        },
+        "hero_image": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 600
+                },
+                "thumbnails": [],
+                "label": "Hero image (.png or .jpg only)"
+            }
+        },
+        "browser_link": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading6",
+                "label": "Browser link",
+                "placeholder": "Open mail in the browser"
+            }
+        },
+        "signature": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em",
+                "label": "Signature",
+                "placeholder": "John doe from our team"
+            }
+        },
+        "bottom_section_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading2",
+                "label": "Bottom section title"
+            }
+        },
+        "bottom_section_content": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "Bottom section content"
+            }
+        },
+        "footer": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "Footer"
+            }
+        },
+        "copyright": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "Copyright",
+                "placeholder": "Legal text"
+            }
+        },
+        "statements": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "statement_image": {
+                        "type": "Image",
+                        "config": {
+                            "constraint": {
+                                "width": 100
+                            },
+                            "thumbnails": [],
+                            "label": "Statement image (.png or .jpg only)"
+                        }
+                    }
+                },
+                "label": "Statements"
+            }
+        }
+    },
+    "Styles": {
+        "browser_link_color": {
+            "type": "Color",
+            "config": {
+                "label": "Browser link color"
+            }
+        },
+        "background_color": {
+            "type": "Color",
+            "config": {
+                "label": "Background color"
+            }
+        },
+        "section_background_color": {
+            "type": "Color",
+            "config": {
+                "label": "Section background color"
+            }
+        },
+        "texts_color": {
+            "type": "Color",
+            "config": {
+                "label": "Texts color"
+            }
+        },
+        "links_color": {
+            "type": "Color",
+            "config": {
+                "label": "Links color"
+            }
+        },
+        "buttons_background_color": {
+            "type": "Color",
+            "config": {
+                "label": "Buttons background color"
+            }
+        },
+        "buttons_text_color": {
+            "type": "Color",
+            "config": {
+                "label": "Buttons text color"
+            }
+        },
+        "bottom_section_background": {
+            "type": "Color",
+            "config": {
+                "label": "Bottom section background"
+            }
+        },
+        "bottom_section_text": {
+            "type": "Color",
+            "config": {
+                "label": "Bottom section text"
+            }
+        },
+        "footer_background_color": {
+            "type": "Color",
+            "config": {
+                "label": "Footer background color"
+            }
+        },
+        "footer_text_color": {
+            "type": "Color",
+            "config": {
+                "label": "Footer text color"
+            }
+        }
+    },
+    "Order confirmed": {
+        "order_confirm_icon": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 100,
+                    "height": 100
+                },
+                "thumbnails": [],
+                "label": "Icon (.png or .jpg only)"
+            }
+        },
+        "order_confirm_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "Title",
+                "placeholder": "Thank for your order !"
+            }
+        },
+        "order_confirm_main_text": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item,rtl",
+                "allowTargetBlank": true,
+                "label": "Main text"
+            }
+        },
+        "order_confirm_cta_text": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading6",
+                "label": "CTA text"
+            }
+        },
+        "order_confirm_cta_link": {
+            "type": "Link",
+            "config": {
+                "allowTargetBlank": true,
+                "label": "CTA link",
+                "select": null
+            }
+        },
+        "order_summary_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading3",
+                "label": "Order summary title"
+            }
+        },
+        "order_id_text": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading5",
+                "label": "Order id text"
+            }
+        },
+        "order_start_subscription_date": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading4",
+                "label": "Order start subscription date",
+                "placeholder": "Subscription only field"
+            }
+        },
+        "order_renting_start": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading4",
+                "label": "Order renting start",
+                "placeholder": "Date to date only field"
+            }
+        },
+        "order_renting_end": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading4",
+                "label": "Order renting end",
+                "placeholder": "Date to date only field"
+            }
+        },
+        "order_renting_return": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading5",
+                "label": "Order renting return",
+                "placeholder": "Date to date only field"
+            }
+        },
+        "order_renting_duration": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading4",
+                "label": "Order renting duration",
+                "placeholder": "Date to date only field"
+            }
+        },
+        "order_shipping": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading4",
+                "label": "Order shipping"
+            }
+        },
+        "order_shipping_method": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading5",
+                "label": "Order shipping method"
+            }
+        },
+        "order_products": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading4",
+                "label": "Order products"
+            }
+        },
+        "order_paid_text": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading5",
+                "label": "Order paid text"
+            }
+        },
+        "order_tax_text": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading5",
+                "label": "Order tax text"
+            }
+        },
+        "order_pay_method": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading5",
+                "label": "Order pay method"
+            }
+        },
+        "order_pay_method_desc": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading5",
+                "label": "Order pay method desc"
+            }
+        }
+    },
+    "Invoice": {
+        "invoice_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "Invoice title"
+            }
+        },
+        "invoice_billing_address": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading2",
+                "label": "Invoice Billing address"
+            }
+        }
+    },
+    "Returned parcel": {
+        "parcelreturnsuccessobject": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "parcelReturnSuccessObject"
+            }
+        },
+        "parcelreturnmissingobject": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "parcelReturnMissingObject"
+            }
+        },
+        "parcelreturnlogo": {
+            "type": "Image",
+            "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "parcelReturnLogo (.png or .jpg only)"
+            }
+        },
+        "parcelreturntitle": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "parcelReturnTitle"
+            }
+        },
+        "parcelreturnintro": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph",
+                "label": "ParcelReturnIntro"
+            }
+        },
+        "parcelreturnsuccesstitle": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading2",
+                "label": "parcelReturnSuccessTitle"
+            }
+        },
+        "parcelreturnfailuretitle": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading2",
+                "label": "parcelReturnFailureTitle"
+            }
+        },
+        "parcelreturntodo": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "parcelReturnTodo"
+            }
+        },
+        "parcelreturngreetings": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "parcelReturnGreetings"
+            }
+        }
+    },
+    "Shipment reminder": {
+        "parceltoreturnemailobject": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "parcelToReturnEmailObject",
+                "placeholder": "Objet de l'email"
+            }
+        },
+        "parceltoreturntitle": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "parcelToReturnTitle",
+                "placeholder": "titre"
+            }
+        },
+        "parceltoreturnintro": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "allowTargetBlank": true,
+                "label": "parcelToReturnIntro",
+                "placeholder": "Un texte d'introduction"
+            }
+        },
+        "parceltoreturntodo": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "allowTargetBlank": true,
+                "label": "parcelToReturnTodo",
+                "placeholder": "write what user should do"
+            }
+        }
+    },
+    "Payment Failed": {
+        "payment_failed_icon": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 100,
+                    "height": 100
+                },
+                "thumbnails": [],
+                "label": "Icon (.png or .jpg only)"
+            }
+        },
+        "payment_failed_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "Title",
+                "placeholder": "Hello Dear customer"
+            }
+        },
+        "payment_failed_main_text": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item,rtl",
+                "allowTargetBlank": true,
+                "label": "Main text",
+                "placeholder": "Sorry, you're payment failed"
+            }
+        },
+        "payment_failed_secondary_text": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item,rtl",
+                "allowTargetBlank": true,
+                "label": "Main text",
+                "placeholder": ""
+            }
+        }
+    },
+    "Refund": {
+        "refund_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "Title"
+            }
+        },
+        "refund_text": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,strong,em,hyperlink,list-item,o-list-item",
+                "label": "Text"
+            }
+        }
+    }
+}

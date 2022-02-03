@@ -1,0 +1,44 @@
+{
+    "Main": {
+        "choose_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "choose_button"
+            }
+        },
+        "sold_out": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "sold out"
+            }
+        },
+        "pack_content_title": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Pack content title"
+            }
+        }
+    },
+    "Layout": {
+        "display_hero_section": {
+            "type": "Boolean",
+            "config": {
+                "placeholder_false": "Show",
+                "placeholder_true": "Hide",
+                "default_value": false,
+                "label": "Display Hero Section"
+            }
+        },
+        "column_layout": {
+            "type": "Select",
+            "config": {
+                "options": ["2/3 - 1/3", "1/2 - 1/2", "1/3 - 2/3"],
+                "default_value": "2/3 - 1/3",
+                "label": "Column layout"
+            }
+        }
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "Main": {
+        "header_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading6",
+                "label": "Header Title",
+                "placeholder": "Title displayed in Header"
+            }
+        },
+        "sold_out": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Sold out"
+            }
+        },
+        "hero_top_title": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading4",
+                "label": "Hero Top Title"
+            }
+        },
+        "herotitle": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "herotitle"
+            }
+        },
+        "titleshop": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "titleshop"
+            }
+        },
+        "filters": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "filters"
+            }
+        },
+        "filters_dropdown_label": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Filters dropdown label",
+                "placeholder": "*Only if dropdown config is set"
+            }
+        },
+        "show_only_available_text": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading5",
+                "label": "Show only available text"
+            }
+        },
+        "shopdescription": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "shopdescription"
+            }
+        },
+        "has_shipping_card": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "Has shipping card"
+            }
+        },
+        "has_variant_filters": {
+            "type": "Boolean",
+            "config": {
+                "default_value": false,
+                "label": "has variant filters"
+            }
+        },
+        "shippingimage": {
+            "type": "Image",
+            "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "shippingimage"
+            }
+        },
+        "shippingdescription": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                "label": "shippingdescription"
+            }
+        },
+        "shop_to_packs_button": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "shop to packs button"
+            }
+        },
+        "max_item_in_cart": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "max_item_in_cart"
+            }
+        },
+        "next": {
+            "type": "StructuredText",
+            "config": {
+                "single": "strong,em",
+                "label": "Pagination Next"
+            }
+        },
+        "pagination_previous": {
+            "type": "StructuredText",
+            "config": {
+                "single": "strong,em",
+                "label": "Pagination Previous"
+            }
+        }
+    },
+    "Size Modal": {
+        "title_size_modale": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "Title size modale"
+            }
+        },
+        "product_size_modal_cta_add": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                "label": "product size modal cta add"
+            }
+        }
+    },
+    "SEO": {
+        "meta_title_shop": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Meta title shop"
+            }
+        },
+        "meta_description_shop": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta description shop"
+            }
+        },
+        "meta_keywords_shop": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "meta keywords shop"
+            }
+        }
+    }
+}
