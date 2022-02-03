@@ -1,7 +1,7 @@
 [
   {
     "id": "homepage",
-    "label": "HomePage",
+    "name": "HomePage",
     "repeatable": false,
     "value": "homepage.json"
   }
